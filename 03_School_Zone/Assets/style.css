@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-wrapper
+{
+    width: 100%;
+}
+
+.nav-content
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* background-color: darkgrey; */
+    padding: 7px 5px;
+}
+
+/*---------------------------------- Primary Navigation Bar ------------------------------------*/
+
+#primary-nav
+{
+    background-color: rgba(248,248,248,255);
+}
+
+#primary-nav .nav-content .nav-elements
+{
+    width: 85%;
+}
+
+#primary-nav .nav-content .nav-icons
+{
+    width: 15%;
+    float: right;
+}
+
+#primary-nav .nav-content ul
+{
+    list-style: none;
+}
+
+#primary-nav .nav-content .nav-elements ul li, .nav-icons ul li
+{
+    display: inline;
+}
+
+#primary-nav .nav-content .nav-elements ul li 
+{
+    border-right: 1.5px solid rgb(128, 128, 128);
+}
+
+#primary-nav .nav-content .nav-elements ul li:last-of-type
+{
+    border-right: none;
+}
+#primary-nav .nav-content .nav-elements ul li a
+{
+    text-decoration: none;
+    padding: 6px; 
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgb(128, 128, 128);
+}
+
+#primary-nav .nav-content .nav-icons ul li a
+{
+    text-decoration: none;
+    padding: 6px;
+    color: rgba(121,181,48,255);
+    width: 2px;
+    height: 2px;
+}
+
+/*------------------------------- Primary Navigation Bar End -----------------------------------*/
+
+/*--------------------------------- Secondary Navigation Bar -----------------------------------*/
+
+#secondary-nav
+{
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+#secondary-nav .nav-content
+{
+    display: flex;
+}
+
+#secondary-nav .nav-content .nav-logo
+{
+    padding: 10px 0;
+    width: 40%;
+}
+
+#secondary-nav .nav-content .nav-info
+{
+    width: 60%;
+    display: flex;
+}
+
+#secondary-nav .nav-content .nav-info div
+{
+    padding: 18px 0 10px 0;
+}
+
+#secondary-nav .nav-content .nav-info a i
+{
+    text-decoration: none;
+    color: rgba(121,181,48,255);
+    width: 3px;
+    height: 5px;
+    padding: 0 8px;
+}
+
+#secondary-nav .nav-content .nav-info p
+{
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+    line-height: 5px;
+}
+
+#secondary-nav .nav-content .nav-info #btn
+{
+    padding: 10px 20px;
+    margin-left: 110px;
+    border: 2px solid rgba(121,181,48,255);
+    background-color: #ffffff;
+    color: rgba(121,181,48,255);
+}
+
+/*------------------------------- Secondary Navigation Bar End ---------------------------------*/
+
+
+/*------------------------------------ Main Navigation Bar -------------------------------------*/
+
+#main-nav
+{
+    background-color: rgba(121,181,48,255);
+}
+
+#main-nav .nav-content ul
+{
+    list-style: none;
+}
+
+#main-nav .nav-content .nav-elements ul li
+{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#main-nav .nav-content .nav-elements ul li a
+{
+    text-decoration: none;
+    padding: 5px 12px; 
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+#main-nav .nav-content .nav-elements ul li i
+{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*---------------------------------- Main Navigation Bar End -----------------------------------*/
+
